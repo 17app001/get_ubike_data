@@ -1,5 +1,6 @@
 name: YouBike Data Crawler
-
+env:
+  TZ: Asia/Taipei
 on:
   schedule:
     # 每 5 分鐘執行一次 (UTC 時間；注意 GitHub Actions 排程在高負載時可能會有數分鐘延遲)
